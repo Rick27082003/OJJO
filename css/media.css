@@ -1,0 +1,125 @@
+@media (max-width: 1399px){
+  .articles__text text{
+    padding: 0 25%;
+  }
+}
+@media (max-width: 1199px){
+  .header__nav-icon{
+    margin-left: 14px;
+  }  
+  .footer__line{
+    width: 215px;
+  }
+}
+@media (max-width: 991px){
+  .email__item-form{
+    width: 400px;
+  }
+  .articles__text text{
+    padding: 0 1%;
+  }
+  
+   .navbar-collapcse{
+    background: rgba(36, 18, 18, 0.603);
+   }
+    .header__nav-icon{
+        display: flex;
+        margin-top: 10px;
+      } 
+      .nav-logo-none{
+        display: flex;
+      }
+      .nav-logo-none-test{
+        display: none;
+      }
+      .header__nav-link, .header__nav-icon{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff;
+      }
+      .navbar-nav-d-flex{
+        display: flex !important;
+        flex-direction: initial;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .footer__tab{
+        margin-top: 20px;
+      }
+      
+      
+}
+@media(max-width:767px){
+  .email__item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .email__item-form{
+    margin-top: 20px;
+  }
+  .footer__link{
+    font-size: 12px;
+  }
+}
+@media(max-width:575px){
+  .footer__text {
+    width: 350px;
+}
+}
+@media(max-width:550px){
+   .footer__end-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+}
+@media (max-width: 450px){
+  .email__button{
+    margin-top: 5px;
+  }
+  .email__item-form{
+    width: 100%;
+  }
+  .email__item-input{
+    flex-direction: column;
+  }
+  
+  .header__text-title{
+   font-size: 25px ;
+  }
+  .header__text-link{
+   font-size: 13px ;
+   padding: 10px 30px;
+  }
+  .nav-logo-none{
+    width: 120px !important;
+  }
+  .nav-logo-none-img{
+    width: 100%;
+  }
+}
+@media(max-width: 359px){
+  .tabBlock .nav-pills .nav-link{
+    width: 100%;
+    height: 40px;
+  }
+  .tabBlock .nav-item{
+    width: 100%;
+    margin-top: 5px;
+  }
+  .tabBlock .nav-pills .nav-link.active{
+    width: 100%;
+  }
+  .tabBlock__button{
+    display: none;
+  }
+  .footer__text {
+    width: 300px;
+}
+
+}
